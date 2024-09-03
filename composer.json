@@ -1,0 +1,17 @@
+{
+    "name": "root/fuckingtest",
+    "autoload": {
+        "psr-4": {
+            "Root\\Fuckingtest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yuriy",
+            "email": "huravltampl@gmail.com"
+        }
+    ],
+    "require": {
+        "league/csv": "^9.8"
+    }
+}
