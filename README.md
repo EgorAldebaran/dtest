@@ -1,4 +1,5 @@
 # dtest
 
 # Первое задание - ftask.sql
-# Второе задание - index.php
+# Второе задание - parser.php
+# Третье задание - index.php подключает класс в ./src/CasualModel.php
