@@ -67,7 +67,7 @@ class CasualModel
         echo "Результаты моделирования:\n";
         echo "---------------------------------\n";
         echo "Всего итераций: {$this->iterations}\n";
-        echo "Числа 19 и 20 оказались в одной группе в {$this->sameGroupCount} случаях.\n";
+        echo "19 и 20 оказались в одной группе в {$this->sameGroupCount} случаях.\n";
         echo "Процент случаев: " . number_format($percentage, 2) . "%\n";
         echo "---------------------------------\n";
     }
