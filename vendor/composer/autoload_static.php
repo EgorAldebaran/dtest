@@ -11,24 +11,24 @@ class ComposerStaticInitef3b201cebe316a66f2ab5417b7a9f6b
     );
 
     public static $prefixLengthsPsr4 = array (
-        'R' => 
-        array (
-            'Root\\Fuckingtest\\' => 17,
-        ),
         'L' => 
         array (
             'League\\Csv\\' => 11,
         ),
+        'D' => 
+        array (
+            'Dtest\\' => 6,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Root\\Fuckingtest\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'League\\Csv\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/csv/src',
+        ),
+        'Dtest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Root\\Fuckingtest\\' => array($baseDir . '/src'),
     'League\\Csv\\' => array($vendorDir . '/league/csv/src'),
+    'Dtest\\' => array($baseDir . '/src'),
 );

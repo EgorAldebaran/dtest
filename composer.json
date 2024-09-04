@@ -1,8 +1,8 @@
 {
-    "name": "root/fuckingtest",
+    "name": "root/dtest",
     "autoload": {
         "psr-4": {
-            "Root\\Fuckingtest\\": "src/"
+            "Dtest\\": "src/"
         }
     },
     "authors": [
