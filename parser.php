@@ -14,7 +14,7 @@ $reader->setHeaderOffset(0); //set the CSV header offset
 $records = $reader->getRecords();
 $source = [];
 $matrix = [];
-$size = 2;
+$size = 100;
 
 foreach ($records as $offset => $record) {
     $source[] .= (int)$record['value'];
